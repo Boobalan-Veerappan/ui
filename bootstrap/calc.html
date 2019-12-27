@@ -1,0 +1,123 @@
+<!doctype html>
+<html lang="en">
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/main.css">
+    <style>
+        
+    </style>
+    <title>User Details....</title>
+  </head>
+  <body>
+
+    <div class="py-3 bg-primary text-center">
+      <div >
+        <h1 class="text-white">Users Details....</h1>
+        <p class="lead text-white">
+          This examples wil give you basic understnading of JavaScript
+        </p>
+      </div>
+
+    </div>
+    <div class="container mt-3">
+      <div class="row">
+        <div class="col-4">
+          <div class="card">
+           
+            <div class="card-body">
+              <h5 class="card-title">Calculator</h5>
+              <hr>
+              <form id="calc">
+                  <div class="form-group">
+                    <label>Enter num1:</label>
+                    <input type="number" class="form-control" id="num1">
+                  </div>
+                  <div class="form-group">
+                    <label>Enter num2:</label>
+                    <input type="number" class="form-control" id="num2">
+                  </div>
+                  <button type="submit" class="btn btn-primary" id="btnAdd">Addition</button>
+                  <button type="submit" class="btn btn-primary" id="btnMul">Multiplication</button>
+                  <button type="submit" class="btn btn-primary" id="btnDiv">Division</button>
+              </form>
+              <hr>
+              <div id="calcResult"></div>
+            </div>
+          </div>
+        </div>
+        <div class="col-4">
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title">String Operations</h5>
+              <hr>
+              <form id="strForm">
+                <div class="form-group">
+                  <label>Enter String:</label>
+                  <input type="text" class="form-control" id="str">
+
+                </div>
+                <button type="submit" class="btn btn-primary" id="btnRev">Reverse</button>
+                <button type="submit" class="btn btn-primary" id="btnCar">UpperCase</button>
+                <button type="submit" class="btn btn-primary" id="btnPal">Palindrome</button>
+
+              </form>
+              <hr>
+              <div id="strResult"></div>
+              </div>
+          </div>
+        </div>
+        <div class="col-4">
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title">Nubmer Operations</h5>
+              <hr>
+              <form id="strForm">
+                <div class="form-group">
+                  <label>Enter num:</label>
+                  <input type="number" class="form-control" id="num">
+
+                </div>
+                <button type="submit" class="btn btn-primary" id="btnRevNum">Reverse</button>
+                <button type="submit" class="btn btn-primary" id="btnFactNum" >Factorial</button>
+                <button type="submit" class="btn btn-primary" id="btnPalNum">Palindrome</button>
+
+              </form>
+              <hr>
+              <div id="strResult"></div>
+              </div>
+          </div>
+        </div>
+      </div>
+      <hr>
+       <div class="container mt-4">
+        <div class="row">
+          <div class="col-6 offset-3">
+            <div id="showUsers"></div>
+            <div class="form-group mt-2">
+              <label>Enter the username</label>
+              <input type="text" class="form-control"  name="username" id="username">
+              
+            </div>
+          </div>
+         
+        </div>
+      </div>
+
+    </div>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <script src="js/calc.js"></script>
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootbox.js/5.4.0/bootbox.min.js"></script>
+    
+  </body>
+</html>

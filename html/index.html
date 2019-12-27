@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>HTML Tutorial - For Novice</title>
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+    
+    <a href="basic.html" id="firstId">First HTML Page</a><br>
+    <a href="headings.html">Headings</a>  <br>
+
+
+    <h3>Social Networks</h3>
+    <a href="http://facebook.com" target="_blank">Facebook</a><br>
+    <a href="http://google.com"  target="_blank">Google</a><br>
+    <a href="http://linkedin.com"  target="_blank">LinkedIn</a><br>
+    <a href="#imgId">Image</a><br>
+
+    <h3>List Examples</h3>
+
+    <ul>
+        <li>Headings</li>
+        <li>Image</li>
+        <li>HyperLinks</li>
+        <li>Tables</li>
+        <li>
+            Forms
+            <ol>
+                <li>Text</li>
+                <li>Number</li>
+                <li>Radio</li>
+                <li>CheckBox</li>
+                <li>TextArea</li>
+            </ol>
+
+        </li>
+    </ul>
+
+    <ol type="A">
+        <li>Headings</li>
+        <li>Image</li>
+        <li>HyperLinks</li>
+        <li>Tables</li>
+        <li>Forms
+
+            <ol>
+                <li>Text</li>
+                <li>Number</li>
+                <li>Radio</li>
+                <li>CheckBox</li>
+                <li>TextArea</li>
+            </ol>
+        </li>
+    </ol>
+
+    <h3 id="imgId">Images</h3>
+
+    <img src="img/appoverview.JPG" alt="Application Overview Image" height="200px" width="400px">
+    <br>
+    <h3>Image with borders</h3>
+    <img src="img/appoverview.JPG" alt="Application Overview Image" height="200px" width="400px" style="border: 2px solid blueviolet;border-radius: 20px;">
+    <br>
+    <a href="#firstId">Start</a>
+    
+    <h3>HTML - Tables</h3>
+
+
+  
+
+    <table id="emptableId">
+        <tr>
+
+            <th colspan="4">Heraizen Technologies</th>
+        </tr>
+        <tr>
+            <th>Empno</th>
+            <th>Ename</th>
+            <th>Email</th>
+            <th>Mobile</th>           
+        </tr>
+        <tr>
+            <td>1001</td>
+            <td>Krish</td>
+            <td>krish.t@heraizen.com</td>
+            <td>7654323456</td>
+        </tr>
+        <tr>
+            <td>1002</td>
+            <td>Manoj</td>
+            <td>manoj.pvn@heraizen.com</td>
+            <td>7654323457</td>
+        </tr>
+        <tr>
+            <td>1003</td>
+            <td>Ramya</td>
+            <td>ramya.r@heraizen.com</td>
+            <td>7654323458</td>
+        </tr>
+    </table>
+
+<h3>HTML - Forms</h3>
+
+    <form class="issueForm">
+        <fieldset>
+            <legend>Raise Issue</legend>
+            <p>
+                <label>Title</label>
+                <input type="text" name="title" id="title" class="textCls" placeholder="Please provide title of issue">
+            </p>
+            <p>
+                <label>Module</label>
+                <select class="textCls">
+                   <option value="">Select Module name</option>
+                   <option value="admission">Admission</option>
+                   <option value="nba">NBA</option>
+                   <option value="lessionplan">Lession Plan</option>
+                   <option value="others">Others</option>
+                </select>
+            </p>
+            <p>
+                <label>Is it show stopper</label>
+                <input type="radio" name="showstopper">Yes
+                <input type="radio" name="showstopper">No
+            </p>
+            <p>
+                <label>Description</label>
+                <textarea rows=5 cols="50"></textarea>
+            </p>
+            <p>
+                <label>&nbsp;</label>
+                <input type="submit" value="Submit">
+            </p>
+        </fieldset>
+    </form>
+
+</body>
+</html>
